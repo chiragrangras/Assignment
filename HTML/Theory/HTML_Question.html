@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML_Questions</title>
+  </head>
+  <body>
+    <h1>HTML_Questions</h1>
+    <ol>
+      <li>Are the HTML tags and elements the same thing?</li>
+      <p>
+        Ans :- Tags are building blocks of HTML Page. They tell the browser how
+        it should display content to the user. A tag starts with a < bracket and
+        ends with a > bracket.
+      </p>
+      <p>
+        Element includes a start tag, content, and an end tag. HTML Elements are
+        components of the web page.
+      </p>
+      <hr />
+      <li>What are tags and attributes in HTML?</li>
+      <p>
+        Ans :- HTML tags are used to hold the HTML element.HTML tags are almost
+        like keywords where every single tag has unique meaning
+      </p>
+      <p>
+        HTML attributes are used to describe the characteristic of an HTML
+        element in detail.HTML attributes are found only in the starting tag.
+      </p>
+      <hr />
+      <li>What are void elements in HTML? With Example.</li>
+      <p>
+        Ans :- A void element is an element whose content model never allows it
+        to have contents under any circumstances.
+      </p>
+      <p>Example :- br, hr, input, link, etc.</p>
+      <hr />
+      <li>What are HTML Entities? With Example.</li>
+      <p>
+        Ans :- If you use the less than < (<) > or greater than < (>) > signs in
+        your text, the browser might mix them with tags.
+      </p>
+      Example :-
+      <ul>
+        <li>& ampersand => & amp;</li>
+        <li>" double quotation mark => & quot;</li>
+        <li>& nbsp => & nbsp;</li>
+        <li>© copyright => & copy;</li>
+      </ul>
+      <hr />
+      <li>What are different types of lists in HTML? With Example.</li>
+      <p>Ans :- There are three type of list.</p>
+      <ul>
+        <li>Unordered List</li>
+        <p>Example :- List item in bold point wise.</p>
+        <li>Ordered List</li>
+        <p>Example :- List item in number wise.</p>
+        <li>Description List</li>
+        <p>Example :- List item in Description wise.</p>
+      </ul>
+      <hr />
+      <li>What is the ‘class’ attribute in HTML? With Example.</li>
+      <p>
+        Ans :- The class attribute specifies one or more classnames for an
+        element.
+      </p>
+      <p>Example :- < h1 class="classnames">Header< /h1></p>
+      <hr />
+      <li>
+        What is the difference between the ‘id’ attribute and the ‘class’
+        attribute of HTML elements? With Example.
+        <p>
+          Ans :- The "id" selector is used id attribute of an element. For an
+          HTML element, the "id" name starts with the symbol '#' followed by a
+          unique name.
+          <br>Example :- #idName { }
+          <br />
+          < p> id="idName">Demo for Id selector< /p>.
+          <p>The "class" selector is used to select an element with a specific class attribute. 
+            The class selector starts with a period (.) followed by a class name.</p>
+            <br>Example :- .className{ }
+            <br>
+            < p class="className">Demo for class selector.< /p>
+        </p>
+      </li>
+      <hr />
+      <li>What are the various formatting tags in HTML?</li>
+      <p>Ans :- Formatting elements were designed to display special types of text.</p>
+      Example :- 
+      <ul>
+        <li>< b > => Bold</li>
+        <li>< strong > => Important text, For SEO Purpose.</li>
+        <li>< em > => Emphasized text</li>
+        <li>< sub > => Subscript text</li>
+        <li>< sup > => Superscript text</li>
+      </ul>
+      <hr />
+      <li>How is Cell Padding different from Cell Spacing? With Example.</li>
+      <p>Ans :- Cellpadding basically defines the space present between a table cell’s border and the content present in it.</p>
+      <img src="../../Assignment/Images/Cellpadding.jpg" width="50%" height="50%">
+      <p>Cellspacing basically defines the space present between individual adjacent cells.</p>
+      <img src="../../Assignment/Images/Cellspacing.jpg" width="50%" height="50%">
+      <hr />
+      <li>
+        How can we club two or more rows or columns into a single row or column
+        in an HTML table? With Example.
+      </li>
+      <p>Ans :- Colspan is a merge columns in table.</p>
+        <table border="">
+          <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Jay</td>
+            <td>Panchal</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Aditya</td>
+            <td>Joshi</td>
+            <td>28</td>
+          </tr>
+        </table>
+      <p>Rowspan is a merge rows in table.</p>
+      <table border="">
+          <tr>
+            <th>Name</th>
+            <td>Jay</td>
+          </tr>
+          <tr>
+            <th rowspan="2">Phone No.</th>
+            <td>9425797622</td>
+          </tr>
+          <tr>
+            <td>9853757982</td>
+          </tr>
+      </table>
+      <hr />
+      <li>
+        What is the difference between a block-level element and an inline
+        element?
+      </li>
+      <p>Ans :- Block elements always start from a new line.
+        Block elements cover space from left to right as far as it can go.
+      </p>
+      <p>Inline elements never start from a new line.
+        Inline elements only cover the space as bounded by the tags in the HTML element.
+      </p>
+      <hr />
+      <li>How to create a Hyperlink in HTML? With Example.</li>
+      <p>Ans :- To make a hyperlink in an HTML page, use the < a> and < /a> tags, which are the tags used to define the links.
+      <br>
+      Example :- 
+      < a href=” ”>.  
+      </p>
+      <hr />
+      <li>What is the use of an iframe tag? With Example.</li>
+      <p>Ans :- An inline frame (iframe) is a HTML element that loads another HTML page within the document. It essentially puts another webpage within the parent page.
+        <br>
+        Example :-
+        < iframe src="url" title="description">< /iframe>
+      </p>
+      <hr />
+      <li>What is the use of a span tag? Explain with example?</li>
+      <p>Ans :-The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+        <br>
+        Example :-
+        < p>My mother has < span span style="color:blue;font-weight:bold">blue< /span> eyes.
+      < /p>
+      <hr />
+      <li>
+        How to insert a picture into a background image of a web page? With
+        Example.
+      </li>
+      <p>Ans :-To set the background image of a webpage, use the CSS style.</p>
+      Example :-
+      <br>
+      <img src="../../Assignment/Images/Background_mag_set.jpg" width="20%" height="20%">
+      <hr />
+      <li>How are active links different from normal links?</li>
+      <p>Ans :- The default color for normal and active links is blue. Some browsers recognize an active link when the mouse cursor is placed over that link; others recognize active links when the link has the focus. Those that don’t have a mouse cursor over that link is considered a normal link.</p>
+      <hr />
+      <li>What are the different tags to separate sections of text?</li>
+      <p>Ans :- < br> tag – It is used to separate the line of text. It breaks the current line and shifts the flow of the text to a new line</p>
+      <p>< p> tag–This tag is used to write a paragraph of text.</p>
+      <p>< blockquote> tag–This tag is used to define large quoted sections.</p>
+      <hr />
+      <li>What is SVG?</li>
+      <p>Ans :- SVG stands for Scalable Vector Graphics.SVG is used to define vector-based graphics for the Web.SVG defines the graphics in XML format.</p>
+      <hr />
+      <li>What is difference between HTML and XHTML?</li>
+      <p>Ans :- HTML stands for Hypertext Markup Language.</p>
+      <p>XHTML stands for Extensible Hypertext Markup Language.XHTML is made by HTML and Xml. XHTML is basically an extension of HTML.</p>
+      <hr />
+      <li>What are logical and physical tags in HTML?</li>
+      <p>Ans :-Physical tag: These tags are used to provide the visual appearance to the text.</p>
+      <p>Logical tag: These tags are used to add some logical or semantic value to the text.
+      </p>
+    </ol>
+  </body>
+</html>
