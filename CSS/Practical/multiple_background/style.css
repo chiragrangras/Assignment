@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+#col-50 {
+    position: relative;
+    background-color: black;
+    height: 559px;
+}
+#col-50 h1{
+    margin: 50px 40px 0px 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-family: "Source Sans Pro";
+    text-align: right;
+}
+#row-1 h1{
+    width: 587px;
+    margin: 30px 50px 0px 0px;
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: 500;
+    font-family: "Open Sans";
+    text-align: right;
+}
+#row-1 p{
+    margin: 20px 50px 0px 0px;
+    font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+}
+#row-1 i{
+    padding: 5px;
+    position: absolute;
+    top:115px;
+    right:-20px;
+    z-index: 1;
+    border-radius: 20px;
+    font-size: 35px;
+    background-color: white;
+}
+#row-2 h1{
+    width: 587px;
+    margin: 30px 50px 0px 0px;
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: 500;
+    font-family: "Open Sans";
+    text-align: right;
+}
+#row-2 p{
+    margin: 20px 50px 0px 0px;
+    font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+}
+#row-2 i{
+    padding: 5px;
+    position: absolute;
+    top:210px;
+    right:-20px;
+    z-index: 1;
+    border-radius: 20px;
+    font-size: 35px;
+    background-color: white;
+}
+#row-3 h1{
+    width: 587px;
+    margin: 30px 50px 0px 0px;
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: 500;
+    font-family: "Open Sans";
+    text-align: right;
+}
+#row-3 p{
+    margin: 20px 50px 0px 0px;
+    font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+}
+#row-3 i{
+    padding: 5px;
+    position: absolute;
+    top:320px;
+    right:-20px;
+    z-index: 1;
+    border-radius: 20px;
+    font-size: 35px;
+    background-color: white;
+}
+#col-50 img{
+    height:559px;
+}
