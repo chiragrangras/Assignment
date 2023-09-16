@@ -35,6 +35,7 @@
     border-radius: 50px;
     top: 160px;
     left: 180px;
+    border: 2px solid #e74c3c;
 }
 #img-5 img{
     position: absolute;
@@ -87,16 +88,28 @@
     border-radius: 50px;
     top: 100px;
     left: 680px;
+    border: 2px solid #e74c3c;
 }
 #img-7 img{
     position: absolute;
     border-radius: 50px;
     top: 90px;
     left: 850px;
+    border: 2px solid #e74c3c;
 }
 #img-8 img{
     position: absolute;
     border-radius: 50px;
     top: 50px;
     right: 185px;
+    border: 2px solid #e74c3c;
+}
+.img6:hover{
+    filter: contrast(400%);
+}
+.img7:hover{
+    filter: contrast(400%);
+}
+.img8:hover{
+    filter: contrast(400%);
 }
