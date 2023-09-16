@@ -31,13 +31,14 @@
 .logo-1{
 	width: 25px;
 	background-color: white;
-	color: rgba(0, 0, 0, 0.5);
+    color: black;
 	text-align: center;
 	font-size: 24px;
 }
 .logo-2{
 	width: 55px;
 	text-align: center;
+    background-color: black;
 	color: white;
 	font-size: 24px;
 }
