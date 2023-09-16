@@ -44,6 +44,20 @@
     left: 460px;   
     border: 2px solid #e74c3c;
 }
+.img5{
+    z-index: 1;
+}
+#img-5:hover::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 460px;
+    width: 83px;
+    border-radius: 50px;
+    height: 81px;
+    background-color: rgba(231, 76, 60, 0.25);
+    z-index: 2;
+  }
 .vertical-slim-div{
     position: absolute;
     top: 122px;
@@ -55,16 +69,7 @@
 .wave{
     stroke: #e74c3c;
 }
-.hover1{
-    position: absolute;
-    top: 40px;
-    left: 460px;
-}
-.opacity1{
-    fill-opacity: 0.5;
-    fill: #e74c3c;
-}
-#img-5 h1{
+.designer-profile h1{
     font-size: 20px;
     text-transform: uppercase;
     color: #e74c3c;
@@ -74,7 +79,7 @@
     top: 50px;
     left:-220px;
 }
-#img-5 p{
+.designer-profile p{
     font-size: 15px;
     color: #ffffff;
     font-weight: 400;
@@ -103,6 +108,12 @@
     top: 50px;
     right: 185px;
     border: 2px solid #e74c3c;
+}
+.img4{
+    z-index: 5;
+}
+.img4:hover{
+    filter: contrast(400%);
 }
 .img6:hover{
     filter: contrast(400%);
