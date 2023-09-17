@@ -21,6 +21,10 @@
     top: 100px;
     left: 210px;
 }
+#text-1 img{
+    position: relative;
+    left: 300px;
+}
 .nav{
     display: flex;
     justify-content: space-around;
