@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maths Operation</title>
+  </head>
+  <style>
+    .box {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 2px solid black;
+    }
+    h1 {
+      text-align: center;
+    }
+    .btn {
+      padding: 15px;
+      font-size: 20px;
+    }
+    #answer{
+        color: blue;
+    }
+    .result{
+        margin-left: 330px;
+        font-size: 20px;
+    }
+  </style>
+  <script>
+    function compute(operation) {
+      let first = Number(document.getElementById("first").value);
+      let second = Number(document.getElementById("second").value);
+      switch (operation) {
+        case "+":
+          document.getElementById("answer").innerHTML = first + second;
+          break;
+        case "-":
+          document.getElementById("answer").innerHTML = first - second;
+          break;
+        case "*":
+          document.getElementById("answer").innerHTML = first * second;
+          break;
+        case "/":
+          document.getElementById("answer").innerHTML = first / second;
+          break;
+        case "%":
+          document.getElementById("answer").innerHTML = first % second;
+          break;
+      }
+    }
+  </script>
+  <body>
+    <div class="box">
+      <h1>Maths Operation</h1>
+      Enter 1st number :
+      <input type="text" id="first" placeholder="Enter your 1st number." />
+      <br /><br />
+      Enter 2nd number :
+      <input type="text" id="second" placeholder="Enter your 2nd number." />
+      <br /><br />
+      <button class="btn" onclick='compute("+")'>+</button>
+      <button class="btn" onclick='compute("-")'>-</button>
+      <button class="btn" onclick='compute("*")'>*</button>
+      <br /><br />
+      <button class="btn" onclick='compute("/")'>/</button>
+      <button class="btn" onclick='compute("%")'>%</button>
+      <div class="result">Answer is : <span id="answer"></span></div>
+    </div>
+  </body>
+</html>
