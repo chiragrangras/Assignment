@@ -48,11 +48,11 @@
 
       // Compute total
       const total = a + b + c + d + e + f + g;
-      document.getElementById("total").value = total;
+      document.getElementById("total").innerText = total;
 
       // Compute Percentage
       const percentage = (total * 100) / 700;
-      document.getElementById("percentage").value = percentage;
+      document.getElementById("percentage").innerText = percentage;
     }
   </script>
   <body>
@@ -90,10 +90,8 @@
         </div>
         <br />
         <button class="btn" onclick="calculate()">Result</button><br /><br />
-        <!-- <label>Total is : <span id="total"></span>/700</label> -->
-        <!-- <label>Percentage is : <span id="percentage">%</span></label> -->
-        <label>Total :- <input type="text" id="total" /></label>
-        <label>Percentage :- <input type="text" id="percentage" /></label>
+        <label>Total is : <span id="total"></span>/700</label>
+        <label>Percentage is : <span id="percentage"></span>&percnt;</label>
         <br><br>
       </div>
     </div>
