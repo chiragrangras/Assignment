@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery Traversing</title>
+    <script src="./JS/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 20px;
+        color: red;
+      }
+      .span{
+        color: gray;
+      }
+    </style>
+    <div class="great-great-grand-parent">
+      body (great-great-grand-parent)
+      <div class="great-grand-parent">
+        div (great-grand-parent)
+        <div class="grand-parent">
+          ul (grand-parent)
+          <div class="direct-parent">
+            li (direct-parent)
+            <div class="span">
+                span
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+        $(".great-great-grand-parent").parent().css("border", "2px solid red");
+        $(".great-grand-parent").parent().css("border", "2px solid red");
+        $(".grand-parent").parent().css("border", "2px solid red");
+        $(".direct-parent").parent().css("border", "2px solid red");
+        $(".span").parent().css("border", "2px solid red");
+        $(".span").css("border", "2px solid gray");
+    </script>
+  </body>
+</html>
